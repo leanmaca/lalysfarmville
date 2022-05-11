@@ -1,0 +1,154 @@
+@charset "ISO-8859-1";
+
+li a{
+
+	background-color: #EDDEA4;
+	border: black;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+	padding:0.3em 1.2em;
+	border-radius: 6em;
+	text-decoration:none;
+	
+}
+.function-area {
+	display: inline-block;
+	padding: 0px 20px;
+	justify-content: space-evenly;
+}
+/* css for search button and input search */
+input[type=submit]{
+	background-color: #EDDEA4;
+	display: inline-block;
+	justify-content: space-evenly;
+	padding: 10px 10;
+	border-radius: 6em;
+	width: 20%;
+	margin-bottom: 20px;
+	
+}
+/* css for search button and input search */
+input[type=text]{
+	display: inline-block;
+	justify-content: space-evenly;
+	padding: 10px 10;
+	opacity: 0.8;
+	width: 70%;
+	margin-bottom: 20px;
+}
+.nav-area{
+	float: right;
+	list-style:none;
+}
+
+.nav-area li{
+
+	display: inline-block;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 10;
+	opacity: 0.8;
+	width: 100%;
+	margin-bottom: 20px;
+}
+nav ul{
+	display:inline;
+}
+
+.nav-area a{
+	transition: all 0.3s ease 0s;
+}
+
+h1{
+	justify-content: space-between;
+	float:center;
+	font-size: 37px;
+}
+
+.function-area li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+
+#button{
+	padding: 9px 25px;
+	background-color: #EDDEA4;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+}
+button{
+	
+	background-color:#EDDEA4;
+	border: black;
+	border-radius: 2em;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+	padding:0.3em 1.2em;
+
+
+}
+*{
+	margin: 0px;
+	padding: 10px;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+}
+input{
+	
+	top: 50%;
+	left: 50%;
+	border: 3px solid #000000;
+	height: 30px;
+	width: 500px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.table-container
+{
+	padding: 0 10%;
+	margin: 40px auto 0;
+	
+}
+.table
+{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+.table thead
+{
+	background-color: #F0ffec;
+    font-weight: 600;
+	
+}
+.table tr th
+{
+	background-color: #D1EFE4;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.35px;
+	color: #000000;
+	opacity: 0.8;
+	padding: 12px;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #000000;
+	
+}
+body
+{
+	background-image: url("farm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	  background-size: cover;
+	  position: relative;
+		font-weight: 300;
+		font-size: 14px;
+		font-family: 'Quicksand', sans-serif;
+}

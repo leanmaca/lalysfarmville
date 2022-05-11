@@ -1,0 +1,288 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background-image: url("farm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	font-weight: 300;
+	font-size: 14px;
+	opacity: 1;
+	font-family: 'Quicksand', sans-serif;
+	align-items: flex-start;
+}
+
+
+li, a{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: black;
+	text-decoration:none;
+	background-color: #EDDEA4;
+	border: black;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+	padding:0.3em 1.2em;
+	border-radius: 6em;
+}
+.aa{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: black;
+	margin-top: 5px;
+	text-decoration:none;
+	background-color: transparent;
+	border: white;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+	opacity: 0.97;
+	padding:0.3em 1.2em;
+	border-radius: 0em;
+}
+.aaa{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: black;
+	margin-top: 5px;
+	text-decoration:none;
+	background-color: white;
+	border: white;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+	opacity: 0.7;
+	padding:0.3em 1.2em;
+	border-radius: 0em;
+}
+p
+{
+	font-size: 20px;
+	text-align: left;
+}
+
+label
+{
+	display: inline-block;
+    width: 250px;
+    align-items:flex-start;
+    font-weight: 900;
+}
+.item
+{
+	background-size: cover;
+	min-height: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: relative;
+	
+}
+.item input[type=text]
+{
+	border-radius: 4em;
+	width: 250px;
+	height: 30px;
+}
+input[type=password]
+{
+	border-radius: 4em;
+	width: 250px;
+	height: 30px;
+}
+input[type=email]
+{
+	border-radius: 4em;
+	width: 250px;
+	height: 30px;
+}
+input[type=number]
+{
+	border-radius: 4em;
+	width: 250px;
+	height: 30px;
+}
+input[type=date]
+{
+	border-radius: 4em;
+	width: 250px;
+	height: 30px;
+}
+select[name]
+{
+	border-radius: 4em;
+	width: 300px;
+	height: 50px;
+}
+.columns
+{
+	background: #f5f2ea; 
+	max-width: 850px;
+	opacity: 0.7;
+	width: 50;
+	padding-top: 36px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.container1
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-area button{
+	float: right;
+	background: none;
+	border: none;	
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+header{
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10;
+	background: #1abc9c;
+	width: 100%
+}
+
+
+.nav-area{
+	float: right;
+	list-style:none;
+}
+
+.nav-area li{
+
+	display: inline-block;
+	padding: 0px 20px;
+}
+nav ul{
+	display:inline;
+}
+
+.nav-area a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav-area li a:hover{
+	color: white;
+}
+
+
+.function-area{
+	padding: 10px 5px;
+	float:right;
+}
+
+.function-area li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.search{
+	
+	float:right;
+}
+
+button{
+	padding: 9px 25px;
+	background-color:#EDDEA4;
+	border: black;
+	border-radius: 2em;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+}
+
+#button{
+	padding: 9px 25px;
+	background-color:#EDDEA4;
+	border: black;
+	border-radius: 2em;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:black;
+}
+table{
+	margin-top: 50px;
+	margin-left: 50px;
+	background: green;
+	color: black;
+}
+.form{
+	background: red;
+	width: 500px;
+	float: left;
+}
+.formsearch{
+	
+}
+
+.popup{
+	width: 100%;
+	
+	
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display:none;
+}
+
+.popup input{
+	margin: 20px
+}
+
+.button{
+	padding: 10px 15px;
+	color: white;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 10px;
+	box-shadow: 6px 6px 29px -4px black;
+	margin-top: 25px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+input[type=submit]
+{
+	padding: 10px 15px;
+	color: white;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 14px;
+	box-shadow: 6px 6px 29px -4px black;
+	margin-top: 25px;
+	text-decoration: none;
+	transition: 0.4s;
+	align-items: center;
+	width: 20%;
+	height: 30%;
+	
+}
+input[value]
+{
+	color:black;
+}
+.popup-content{
+	height: 180px;
+	width: 500px;
+	background: #54C34E;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}

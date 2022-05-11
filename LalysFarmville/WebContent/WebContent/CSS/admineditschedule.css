@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+
+li, a{
+	font-family: Quicksand;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration:none
+}
+
+.nav-area button{
+	float: right;
+	background: none;
+	border: none;	
+	font-family: Quicksand;
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-item: center;
+	padding: -10px 10;
+	background: #1abc9c;
+	width: 100%
+}
+
+
+.nav-area{
+	float: right;
+	list-style:none;
+}
+
+.nav-area li{
+
+	display: inline-block;
+	padding: 0px 20px;
+}
+nav ul{
+	display:inline;
+}
+
+.nav-area a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav-area li a:hover{
+	color: white;
+}
+
+h1{
+	justify-content: space-between;
+	float:center;
+	font-size: 37px;
+}
+
+.function-area{
+	background: yellow;
+}
+
+.function-area li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: blue;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:white;
+}
+
+#button{
+	padding: 9px 25px;
+	background-color: blue;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:white;
+}
+.table{
+	display: inline-block;
+	margin-left: 50px;
+	background: green;
+	color: black;
+}
+.form{
+	background: red;
+	width: 500px;
+	float: left;
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .popup-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

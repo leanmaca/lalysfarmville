@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+*{
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+}
+body
+{
+	padding: 0;
+  	margin: 0;
+  	background-image: url("farm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+li a {
+	background-color: #EDDEA4;
+	border: black;
+	cursor: pointer;
+	height: 30px;
+	transition: all 0.3s ease 02;
+	color: black;
+	padding: 0.3em 1.2em;
+	border-radius: 6em;
+}
+h3{
+	color: #f5f2ea;
+	text-align: center;
+}
+.card-body
+{
+  width: 400px;
+  height: cover;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 5px solid #000;
+  border-radius: 3%;
+  margin-left: auto; 
+
+
+}
+.card-body1
+{
+  width: 400px;
+  height: cover;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 5px solid #000;
+  border-radius: 3%;
+ margin-right: auto;
+
+}
+.nav-area button{
+	float: right;
+	background: none;
+	border: none;	
+	font-family: arial;
+}
+
+header{
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10;
+	background: #1abc9c;
+	width: 100%
+}
+
+
+.nav-area{
+	float: right;
+	list-style:none;
+}
+
+.nav-area li{
+
+	display: inline-block;
+	padding: 0px 20px;
+}
+nav ul{
+	display:inline;
+}
+
+.nav-area a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav-area li a:hover{
+	color: white;
+}
+
+h1{
+	color: #f5f2ea;
+	text-align: start;
+	font-size: 37px;
+}
+
+
+
+.function-area{
+
+	padding: 10px 5px;
+	float:right;
+}
+
+.function-area li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.card-body{
+	color: black;
+	background-color: #f5f2ea;
+}

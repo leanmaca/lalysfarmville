@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+li, a{
+	font-family: arial;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration:none
+}
+
+.nav-area button{
+	float: right;
+	background: none;
+	border: none;	
+	font-family: arial;
+}
+
+header{
+	
+	display: flex;
+	justify-content: flex-end;
+	align-item: center;
+	padding: 30px 10;
+	background: #1abc9c;
+	width: 100%
+}
+
+
+.nav-area{
+	float: right;
+	list-style:none;
+}
+
+.nav-area li{
+
+	display: inline-block;
+	padding: 0px 20px;
+}
+nav ul{
+	display:inline;
+}
+
+.nav-area a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav-area li a:hover{
+	color: white;
+}
+
+h1{
+	justify-content: space-between;
+	float:center;
+	font-size: 37px;
+}
+
+.function-area{
+	
+}
+
+.function-area li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: blue;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:white;
+}
+
+#button{
+	padding: 9px 25px;
+	background-color: blue;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:white;
+}

@@ -1,0 +1,297 @@
+@charset "ISO-8859-1";
+
+input.btn{
+	margin: 30px 100px;
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+}
+input.btn-second{
+	background-color: #5AB345;
+	color: #fff;
+	cursor: pointer;
+}
+.container{
+  background-image: url("farm2.png");
+  height: 400%; 
+  overflow-x:hidden;
+  background-position: center;
+  background-size: cover;
+}
+.login__form {
+	float: left;
+	margin-top: 50px;
+	margin-right: 250px;
+	margin-left: 80px;
+}
+.login__form .input__item {
+	position: relative;
+	width: 370px;
+	margin-bottom: 20px;
+}
+.login__form .input__item input {
+	height: 50px;
+	width: 100%;
+	font-size: 15px;
+	color: #000000;
+	background: #ffffff;
+	border: none;
+	padding-left: 10px;
+}
+.login__form .input__item span {
+	color: #b7b7b7;
+	font-size: 20px;
+	position: absolute;
+	left: 15px;
+	top: 13px;
+}
+.site-btn {
+	font-size: 13px;
+	color: #ffffff;
+	background: #607D3B;
+	font-weight: 700;
+	border: none;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 12px 30px;
+	margin-left: -390px;
+}
+h4{
+	color: #2F2F2F;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 20px;
+	position: relative;
+	font-family: "Quicksand", sans-serif;
+	font-size: 150%;
+}
+h5{
+	color: #2F2F2F;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 20px;
+	position: relative;
+	font-family: "Quicksand", sans-serif;
+	margin-top: 50px;
+	font-size: 200%;
+}
+.section-title h4,
+.section-title h5 {
+	color: #2F2F2F;
+	font-weight: 600;
+	line-height: 21px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	position: relative;
+	font-family: "Quicksand", sans-serif;
+}
+
+.section-title h4:after,
+.section-title h5:after {
+	position: absolute;
+	left: 0;
+	top: -6px;
+	height: 32px;
+	width: 4px;
+	background: #607D3B;
+	content: "";
+}
+body, html {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("farm2.png") repeat;
+
+  height: 170%; 
+
+  background-position: center;
+  background-size: cover;
+}
+.popup1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-family: "sans-serif"
+  }
+
+  .popup-content1 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+li, a{
+	font-family: Quicksand;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration:none
+}
+
+.nav-area button{
+	float: right;
+	background: none;
+	border: none;	
+	font-family: Quicksand;
+}
+
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-item: center;
+	padding: 30px 10;
+	background: #1abc9c;
+	width: 100%
+}
+
+
+.nav-area{
+	float: right;
+	list-style:none;
+}
+
+.nav-area li{
+
+	display: inline-block;
+	padding: 0px 20px;
+}
+nav ul{
+	display:inline;
+}
+
+.nav-area a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav-area li a:hover{
+	color: white;
+}
+
+h1{
+	justify-content: space-between;
+	float:center;
+	font-size: 37px;
+}
+
+.function-area{
+	background: yellow;
+}
+
+.function-area li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+button{
+	padding: 10px 25px;
+	font-size : 18px;
+	background-color: #D4E6AB;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+}
+
+.btn1{
+	background-color:#5AB345;
+  	padding: 9px 25px;
+	border: black;
+	font-size : 18px;
+	font-family: "Quicksand", sans-serif;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+}
+
+#button{
+	padding: 9px 25px;
+	border: black;
+	font-size : 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease 02;
+	color:white;
+}
+
+
+
+.table{
+	display: inline-block;
+	margin-left: -30px;
+	font-size : 15px;
+	margin-top: 100px;
+	width: 50%;
+	opacity: 0.97;
+	border-collapse: collapse;
+	text-align: center;
+}
+.table thead
+{
+	background-color: #F0ffec;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+	
+}
+.table tr th
+{
+	background-color: #D1EFE4;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.35px;
+	color: #000000;
+	padding: 12px;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #000000;
+	
+}
+.popup{
+	background: gray;
+	width: 100%;
+	
+	
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display:none;
+}
+li button{
+	margin-top:10px;
+	font-family:'Quicksand', sans-serif !important;
+	background-color: #EDDEA4 !important;
+	border: black;
+	cursor: pointer;
+	height: 30px;
+	transition: all 0.3s ease 02;
+	color: black;
+	padding: 0.3em 1.2em;
+	padding-bottom: 0.3px;
+	border-radius: 6em !important ;	
+	
+}
+.popup input{
+	margin: 20px
+}
+.popup-content{
+	height: 250px;
+	width: 500px;
+	background: green;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
